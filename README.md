@@ -1,9 +1,9 @@
 # customer_purchasing_behaviours_Team_Project
 
 **Team Members :**
-Anshu Dwivedi
-Henry Giorgi
-Maral Barkhordari
+Anshu Dwivedi </br>
+Henry Giorgi </br>
+Maral Barkhordari </br>
 Sonu Abraham 
 
 

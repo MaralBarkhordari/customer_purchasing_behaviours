@@ -1,5 +1,12 @@
 # customer_purchasing_behaviours_Team_Project
 
+**Team Members :**
+Anshu Dwivedi
+Henry Giorgi
+Maral Barkhordari
+Sonu Abraham 
+
+
 **Business case** : Utilizing Predictive Analytics for Targeted Marketing Strategies
 
 Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. 
@@ -88,3 +95,6 @@ Seek Feedback:
 Share your project with peers or mentors for feedback.
 Iterate:
 Use feedback to improve the project, whether through additional analysis, refining models, or enhancing visualizations.
+
+**Team Responsibilities Breakdown :**
+Data Cleaning - Sonu Abraham 

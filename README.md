@@ -98,3 +98,9 @@ Use feedback to improve the project, whether through additional analysis, refini
 
 **Team Responsibilities Breakdown :**
 Data Cleaning - Sonu Abraham 
+Exploratory Data Analysis(EDA) - Henry Giorgi 
+Feature Engineering - Anshu Dwivedi
+Model development - Maral Barkhordari
+Hyper parameter tuning - Sonu Abraham 
+Result interpretation- Whole team
+

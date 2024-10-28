@@ -1,4 +1,4 @@
-# customer_purchasing_behaviours_Team_Project
+### Customer Purchasing Behaviours - Team Project
 
 ## **Team Members :** </br>
 Anshu Dwivedi </br>
@@ -11,7 +11,7 @@ Sonu Abraham
 
 Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. 
 
-The objective of this project is to understand how various features corelate to determine the effective marketing strategies. By utilizing regression model, we aim to predict marketing strategies that adddress the diverse interests of various customer segments.This analysis will leverage details from the dataset including customer age, annual income, region,loyalty score and purchashing frequency.
+The objective of this project is to understand how various features correlate to determine the effective marketing strategies. By utilizing regression model, we aim to predict marketing strategies that adddress the diverse interests of various customer segments.This analysis will leverage details from the dataset including customer age, annual income, region,loyalty score and purchashing frequency.
 
 ## **About Dataset:**</br>
 **customer_id**: Unique ID of the customer.</br>

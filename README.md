@@ -7,7 +7,7 @@ Maral Barkhordari </br>
 Sonu Abraham 
 
 
-## **Business case** : Utilizing Predictive Analytics for Targeted Marketing Strategies
+## **Business case** : Use predictive analytics to recommend the most effective marketing strategies for different customer segments based on their purchasing frequency, loyalty score, and annual income.
 
 Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. 
 

@@ -1,19 +1,19 @@
 # customer_purchasing_behaviours_Team_Project
 
-##**Team Members :**</br>
+## **Team Members :** </br>
 Anshu Dwivedi </br>
 Henry Giorgi </br>
 Maral Barkhordari </br>
 Sonu Abraham 
 
 
-##**Business case** : Utilizing Predictive Analytics for Targeted Marketing Strategies
+## **Business case** : Utilizing Predictive Analytics for Targeted Marketing Strategies
 
 Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. 
 
 The objective of this project is to understand how various features corelate to determine the effective marketing strategies. By utilizing regression model, we aim to predict marketing strategies that adddress the diverse interests of various customer segments.This analysis will leverage details from the dataset including customer age, annual income, region,loyalty score and purchashing frequency.
 
-##**About Dataset:**</br>
+## **About Dataset:**</br>
 **customer_id**: Unique ID of the customer.</br>
 **age**: The age of the customer.</br>
 **annual_income**: The customer's annual income (in USD).</br>
@@ -22,7 +22,7 @@ The objective of this project is to understand how various features corelate to 
 **region**: The region where the customer lives (North, South, East, West).</br>
 **loyalty_score**: Customer's loyalty score (a value between 0-100).</br>
 
-##**Outlined steps:**</br>
+## **Outlined steps:**</br>
 
 Step 1: Define Project Goals
 Objective: Use predictive analytics to recommend effective marketing strategies for different customer segments.
@@ -96,7 +96,7 @@ Share your project with peers or mentors for feedback.
 Iterate:
 Use feedback to improve the project, whether through additional analysis, refining models, or enhancing visualizations.
 
-##**Team Responsibilities Breakdown :**</br>
+## **Team Responsibilities Breakdown :**</br>
 Data Cleaning - Sonu Abraham </br>
 Exploratory Data Analysis(EDA) - Henry Giorgi </br>
 Feature Engineering - Anshu Dwivedi</br>

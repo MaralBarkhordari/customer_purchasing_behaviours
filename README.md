@@ -7,9 +7,10 @@ Maral Barkhordari </br>
 Sonu Abraham 
 
 
-## **Business case** : Use predictive analytics to recommend the most effective marketing strategies for different customer segments based on their purchasing frequency, loyalty score, and annual income.
+## **Business case** : </br>
+Use predictive analytics to recommend the most effective marketing strategies for different customer segments based on their purchasing frequency, loyalty score, and annual income.</br>
 
-Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. 
+Our team has chosen the **Customer Purchasing Behavior Dataset** for in-depth analysis, aiming to derive valuable insights into customer purchasing behaviors. </br>
 
 The objective of this project is to understand how various features correlate to determine the effective marketing strategies. By utilizing regression model, we aim to predict marketing strategies that adddress the diverse interests of various customer segments.This analysis will leverage details from the dataset including customer age, annual income, region,loyalty score and purchashing frequency.
 

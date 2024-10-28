@@ -1,4 +1,4 @@
-### Customer Purchasing Behaviours - Team Project
+### **Customer Purchasing Behaviours** - Team Project
 
 ## **Team Members :** </br>
 Anshu Dwivedi </br>

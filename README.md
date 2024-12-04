@@ -45,7 +45,7 @@ Step 5: **Interpretation and Insights**</br>
 
 - The most infleuntial features that significantly affect customer purchasing behavior are annual_income, loyalty_score and purchase_to_income_ratio.
 
-- Customer Segmenets with :
+- Customer Segments with :
   
     - High Income, Low loyalty score : Offer premium rewards and exclusive services to build loyalty that can help to increase retention.
 
@@ -56,6 +56,8 @@ Step 5: **Interpretation and Insights**</br>
 - Key Visual Insights :
   
     - Income Vs Loyalty(Box Plot): High-income customers often have untapped engagement potential.
+
+       ![image](https://github.com/user-attachments/assets/96f0cef3-50a9-4141-aad5-997bd1972b47)
 
     - Loyalty Score Vs Purchasing Frequency : Loyalty increases align with higher purchasing frequency, highlighting opportunities for tiered programs.
 

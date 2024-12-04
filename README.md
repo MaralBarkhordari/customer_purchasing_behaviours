@@ -5,7 +5,7 @@ Anshu Dwivedi </br>
 Henry Giorgi </br>
 Maral Barkhordari </br>
 Sonu Abraham 
-
+Keyuan Huang
 
 ## **Business case** : </br>
 Use predictive analytics to recommend the most effective marketing strategies for different customer segments based on their purchasing frequency, loyalty score, and annual income.</br>

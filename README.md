@@ -25,72 +25,44 @@ The objective of this project is to understand how various features correlate to
 
 ## Our Approach </br>
 
-Step 1: **Defined Project Goals** </br>
+Step 1: **Data Understanding and Preprocessing** </br>
 
-What are the key factors influencing purchasing frequency, loyalty score, and annual income?
-How can we segment customers based on these factors?
+ We loaded, cleaned, and preprocessed the dataset, addressing missing values and outliers, and scaled numerical features and encoded categorical variables.
 
-Step 2: **Data Understanding**</br>
-Explore the Dataset:
+Step 2: **Exploratory Data Analysis (EDA):** </br>
 
-Loaded, inspected, and cleaned the dataset, addressing missing values and outliers.
+We conducted segmentation analysis based on customer income and loyalty scores, visualizing purchasing behaviors through histograms, scatter plots, and box plots to identify patterns.
 
-Step 3: **Data Preprocessing** </br>
-Created new features, scaled numerical data, and encoded categorical variables.
+Step 3: **Model Selection and Training** </br>
 
-Step 4: **Exploratory Data Analysis (EDA)** </br>
-Segmentation Analysis:
+We compared different models, including Linear Regression, Decision Tree, and Random Forest. Random Forest emerged as the most effective model due to its high performance and feature importance.
 
-Customers were segmented based on income (categorized as Low, Medium, High) and loyalty (Low, Medium, High) to explore purchasing behaviors across different demographics.
-Heatmaps were employed to visualize customer distributions across segments, providing insights into where marketing efforts could be focused.
+Step 4: **Model Evaluation**</br>
 
-Visualizations:
+We evaluated model performance using R², MAE, and RMSE, and fine-tuned the Random Forest model with GridSearchCV to optimize hyperparameters.
 
-Histograms revealed the distribution of purchase amounts and loyalty scores, showing the concentration of customers in specific ranges.
-Scatter plots illustrated relationships between annual income and purchase frequency, further validating the hypothesis of higher engagement among high-income customers.
-Box plots were created to examine how income segments relate to loyalty scores, indicating distinct purchasing patterns tied to loyalty.
+Step 5: **Interpretation and Insights**</br>
 
-Step 5: **Model Selection and Training**</br>
-Evaluated Linear Regression, Decision Tree, and focused on Random Forest Regressor.
+- The most infleuntial features that significantly affect customer purchasing behavior are annual_income, loyalty_score and purchase_to_income_ratio.
 
-1. Linear Regression: Assumed a linear relationship to predict purchase frequency.
+- Customer Segmenets with :
+    High Income, Low loyalty score : Offer premium rewards and exclusive services to build loyalty that can help to increase retention.
 
-2. Decision Tree Regressor:Employed a tree based model to make predictions based on feature splits.
+    Low Income, High Loyalty: Provide small, frequent rewards and discounts to retain engagement.
 
-3. Random Forest Regressor: An ensemble model of multiple Decision Trees to improve prediction accuracy and reduce overfitting.
+    Medium Income, Moderate Loyalty: These are average earners with moderate engagement. Use value-driven promotions like bundles and seasonal offers to boost frequency.
 
+- Key Visual Insights :
+  
+    - Income Vs Loyalty(Box Plot): High-income customers often have untapped engagement potential.
 
-Among these, Random Forest appears to be the main focus for further analysis, as indicated by the feature importance plot and likely better performance based on evaluation metrics.
+    - Loyalty Score Vs Purchasing Frequency : Loyalty increases align with higher purchasing frequency, highlighting opportunities for tiered programs.
+ 
+    - Segmented Bar Plot: Loyalty and income directly influence purchasing frequency, suggesting tailored strategies for each combination.
 
-Models were trained using an 80-20 split of the dataset, allocating the larger portion for training purposes.
-Each model's performance was assessed through predictions made on both the training and test datasets.
+    - Violin Plot (Loyalty Score): Loyalty score distributions vary with purchasing frequency, offering clues about engagement levels across different groups.
 
-Applied GridSearchCV for the Random Forest model to optimize hyperparameters and enhance predictive performance.
-
-Step 6: **Model Evaluation**</br>
-Assessed performance using R², MAE, and RMSE, ensuring reliability through cross-validation.
-
-R² Score : Random Forest showcased strong performance with high R² values.
-
-Mean Absolute Error (MAE): Provided insights into the average error between predicted and actual values.
-
-Root Mean Squared Error (RMSE): Assessed the model's accuracy, confirming the reliability of predictions.
-
-Results were visualized through various plots, including predictions compared against actual values to verify model performance.
-Feature importance plots illustrated which predictors had the greatest impact on the model's predictions, guiding future marketing strategies.
-
-Step 7: **Interpretation and Insights**</br>
-Feature Importance:
-Analyze which features contribute most to the predictions.
-Segment Recommendations:
-Use the model outputs to make marketing strategy recommendations tailored to different customer segments.
-
-**Key Insights:**
-The analysis indicated that loyalty scores and purchasing frequency are significantly influenced by annual income.
-
-The Random Forest model emerged as the most effective for predicting customer purchasing behavior, providing actionable insights for targeted marketing strategies.
-
-
+    - 3D Scatter Plot : Visualizes interactions between income, loyalty, and purchasing frequency, revealing distinct customer clusters for strategic targeting.
 
 
 

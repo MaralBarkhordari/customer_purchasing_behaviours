@@ -23,53 +23,61 @@ The objective of this project is to understand how various features correlate to
 **region**: The region where the customer lives (North, South, East, West).</br>
 **loyalty_score**: Customer's loyalty score (a value between 0-100).</br>
 
-## **Outlined steps:**</br>
+## Our Approach </br>
 
-Step 1: **Define Project Goals** </br>
-Objective: Use predictive analytics to recommend effective marketing strategies for different customer segments.
-Business Questions:
+Step 1: **Defined Project Goals** </br>
+
 What are the key factors influencing purchasing frequency, loyalty score, and annual income?
 How can we segment customers based on these factors?
 
 Step 2: **Data Understanding**</br>
 Explore the Dataset:
-Load the dataset and understand its structure.
-Identify key features related to purchasing frequency, loyalty score, and annual income.
-Data Inspection:
-Check for missing values, data types, and potential outliers.
+
+Loaded, inspected, and cleaned the dataset, addressing missing values and outliers.
 
 Step 3: **Data Preprocessing** </br>
-Data Cleaning:
-Handle missing values (imputation or removal).
-Remove duplicates if necessary.
-Feature Engineering:
-Create new features that may help in prediction, such as normalized scores or derived metrics (e.g., purchase-to-income ratio).
-Data Transformation:
-Scale numerical features if needed (e.g., standardization or normalization).
-Encode categorical variables (e.g., one-hot encoding).
+Created new features, scaled numerical data, and encoded categorical variables.
 
 Step 4: **Exploratory Data Analysis (EDA)** </br>
+Segmentation Analysis:
+
+Customers were segmented based on income (categorized as Low, Medium, High) and loyalty (Low, Medium, High) to explore purchasing behaviors across different demographics.
+Heatmaps were employed to visualize customer distributions across segments, providing insights into where marketing efforts could be focused.
+
 Visualizations:
-Create visualizations to explore relationships between purchasing frequency, loyalty scores, annual income, and other features.
-Use correlation matrices to identify potential predictors.
-Segment Analysis:
-Analyze customer segments based on purchasing behavior and other features.
+
+Histograms revealed the distribution of purchase amounts and loyalty scores, showing the concentration of customers in specific ranges.
+Scatter plots illustrated relationships between annual income and purchase frequency, further validating the hypothesis of higher engagement among high-income customers.
+Box plots were created to examine how income segments relate to loyalty scores, indicating distinct purchasing patterns tied to loyalty.
 
 Step 5: **Model Selection and Training**</br>
-Regression Models:
-Select appropriate regression algorithms (e.g., Linear Regression, Decision Tree Regression, Random Forest, etc.).
-Split the Data:
-Divide the dataset into training and testing sets (e.g., 80/20 split).
-Model Training:
-Train the selected models on the training data.
-Hyperparameter Tuning:
-Use techniques such as Grid Search or Random Search to optimize model parameters.
+Evaluated Linear Regression, Decision Tree, and focused on Random Forest Regressor.
+
+1. Linear Regression: Assumed a linear relationship to predict purchase frequency.
+
+2. Decision Tree Regressor:Employed a tree based model to make predictions based on feature splits.
+
+3. Random Forest Regressor: An ensemble model of multiple Decision Trees to improve prediction accuracy and reduce overfitting.
+
+
+Among these, Random Forest appears to be the main focus for further analysis, as indicated by the feature importance plot and likely better performance based on evaluation metrics.
+
+Models were trained using an 80-20 split of the dataset, allocating the larger portion for training purposes.
+Each model's performance was assessed through predictions made on both the training and test datasets.
+
+Applied GridSearchCV for the Random Forest model to optimize hyperparameters and enhance predictive performance.
 
 Step 6: **Model Evaluation**</br>
-Performance Metrics:
-Evaluate models using relevant regression metrics such as R², Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
-Cross-Validation:
-Use cross-validation to ensure model stability and avoid overfitting.
+Assessed performance using R², MAE, and RMSE, ensuring reliability through cross-validation.
+
+R² Score : Random Forest showcased strong performance with high R² values.
+
+Mean Absolute Error (MAE): Provided insights into the average error between predicted and actual values.
+
+Root Mean Squared Error (RMSE): Assessed the model's accuracy, confirming the reliability of predictions.
+
+Results were visualized through various plots, including predictions compared against actual values to verify model performance.
+Feature importance plots illustrated which predictors had the greatest impact on the model's predictions, guiding future marketing strategies.
 
 Step 7: **Interpretation and Insights**</br>
 Feature Importance:
@@ -77,32 +85,13 @@ Analyze which features contribute most to the predictions.
 Segment Recommendations:
 Use the model outputs to make marketing strategy recommendations tailored to different customer segments.
 
-Step 8: **Documentation and Presentation**</br>
-Create Visualizations:
-Visualize results and recommendations in a clear and engaging manner (charts, graphs, etc.).
-Documentation:
-Document the entire process, including methodologies, findings, and recommendations.
-Presentation:
-Prepare a presentation summarizing the project objectives, methodologies, key findings, and actionable insights.
+**Key Insights:**
+The analysis indicated that loyalty scores and purchasing frequency are significantly influenced by annual income.
 
-Step 9: **Portfolio Development**</br>
-Compile Your Work:
-Create a GitHub repository or a portfolio website to showcase your project.
-Include Code and Results:
-Share your code, visualizations, and a well-written report explaining your findings and methodologies.
+The Random Forest model emerged as the most effective for predicting customer purchasing behavior, providing actionable insights for targeted marketing strategies.
 
-Step 10: **Feedback and Iteration**</br>
-Seek Feedback:
-Share your project with peers or mentors for feedback.
-Iterate:
-Use feedback to improve the project, whether through additional analysis, refining models, or enhancing visualizations.
 
-## **Team Responsibilities Breakdown :**</br>
 
-**Data Cleaning** -Sonu Abraham </br>
-**Exploratory Data Analysis(EDA)** - Henry Giorgi </br>
-**Feature Engineering** - Anshu Dwivedi</br>
-**Model Development** - Maral Barkhordari</br>
-**Hyper Parameter Tuning** - Sonu Abraham </br>
-**Result Interpretation**- Whole team</br>
+
+
 

@@ -46,24 +46,30 @@ Step 5: **Interpretation and Insights**</br>
 - The most infleuntial features that significantly affect customer purchasing behavior are annual_income, loyalty_score and purchase_to_income_ratio.
 
 - Customer Segmenets with :
-    High Income, Low loyalty score : Offer premium rewards and exclusive services to build loyalty that can help to increase retention.
+  
+    - High Income, Low loyalty score : Offer premium rewards and exclusive services to build loyalty that can help to increase retention.
 
-    Low Income, High Loyalty: Provide small, frequent rewards and discounts to retain engagement.
+    - Low Income, High Loyalty: Provide small, frequent rewards and discounts to retain engagement.
 
-    Medium Income, Moderate Loyalty: These are average earners with moderate engagement. Use value-driven promotions like bundles and seasonal offers to boost frequency.
+    - Medium Income, Moderate Loyalty: These are average earners with moderate engagement. Use value-driven promotions like bundles and seasonal offers to boost frequency.
 
 - Key Visual Insights :
   
     - Income Vs Loyalty(Box Plot): High-income customers often have untapped engagement potential.
 
     - Loyalty Score Vs Purchasing Frequency : Loyalty increases align with higher purchasing frequency, highlighting opportunities for tiered programs.
- 
+
+       ![image](https://github.com/user-attachments/assets/40e44bef-7461-4de5-af0a-0842616eccec)
+
     - Segmented Bar Plot: Loyalty and income directly influence purchasing frequency, suggesting tailored strategies for each combination.
 
     - Violin Plot (Loyalty Score): Loyalty score distributions vary with purchasing frequency, offering clues about engagement levels across different groups.
+      
+       ![image](https://github.com/user-attachments/assets/f92d50c0-ff07-4e41-a5cc-791c84c4b041)
 
     - 3D Scatter Plot : Visualizes interactions between income, loyalty, and purchasing frequency, revealing distinct customer clusters for strategic targeting.
 
+       ![image](https://github.com/user-attachments/assets/6d674a8b-5f52-4163-986c-1280e1d92d66)
 
 
 

@@ -23,86 +23,55 @@ The objective of this project is to understand how various features correlate to
 **region**: The region where the customer lives (North, South, East, West).</br>
 **loyalty_score**: Customer's loyalty score (a value between 0-100).</br>
 
-## **Outlined steps:**</br>
+## Our Approach </br>
 
-Step 1: **Define Project Goals** </br>
-Objective: Use predictive analytics to recommend effective marketing strategies for different customer segments.
-Business Questions:
-What are the key factors influencing purchasing frequency, loyalty score, and annual income?
-How can we segment customers based on these factors?
+Step 1: **Data Understanding and Preprocessing** </br>
 
-Step 2: **Data Understanding**</br>
-Explore the Dataset:
-Load the dataset and understand its structure.
-Identify key features related to purchasing frequency, loyalty score, and annual income.
-Data Inspection:
-Check for missing values, data types, and potential outliers.
+ We loaded, cleaned, and preprocessed the dataset, addressing missing values and outliers, and scaled numerical features and encoded categorical variables.
 
-Step 3: **Data Preprocessing** </br>
-Data Cleaning:
-Handle missing values (imputation or removal).
-Remove duplicates if necessary.
-Feature Engineering:
-Create new features that may help in prediction, such as normalized scores or derived metrics (e.g., purchase-to-income ratio).
-Data Transformation:
-Scale numerical features if needed (e.g., standardization or normalization).
-Encode categorical variables (e.g., one-hot encoding).
+Step 2: **Exploratory Data Analysis (EDA):** </br>
 
-Step 4: **Exploratory Data Analysis (EDA)** </br>
-Visualizations:
-Create visualizations to explore relationships between purchasing frequency, loyalty scores, annual income, and other features.
-Use correlation matrices to identify potential predictors.
-Segment Analysis:
-Analyze customer segments based on purchasing behavior and other features.
+We conducted segmentation analysis based on customer income and loyalty scores, visualizing purchasing behaviors through histograms, scatter plots, and box plots to identify patterns.
 
-Step 5: **Model Selection and Training**</br>
-Regression Models:
-Select appropriate regression algorithms (e.g., Linear Regression, Decision Tree Regression, Random Forest, etc.).
-Split the Data:
-Divide the dataset into training and testing sets (e.g., 80/20 split).
-Model Training:
-Train the selected models on the training data.
-Hyperparameter Tuning:
-Use techniques such as Grid Search or Random Search to optimize model parameters.
+Step 3: **Model Selection and Training** </br>
 
-Step 6: **Model Evaluation**</br>
-Performance Metrics:
-Evaluate models using relevant regression metrics such as R², Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
-Cross-Validation:
-Use cross-validation to ensure model stability and avoid overfitting.
+We compared different models, including Linear Regression, Decision Tree, and Random Forest. Random Forest emerged as the most effective model due to its high performance and feature importance.
 
-Step 7: **Interpretation and Insights**</br>
-Feature Importance:
-Analyze which features contribute most to the predictions.
-Segment Recommendations:
-Use the model outputs to make marketing strategy recommendations tailored to different customer segments.
+Step 4: **Model Evaluation**</br>
 
-Step 8: **Documentation and Presentation**</br>
-Create Visualizations:
-Visualize results and recommendations in a clear and engaging manner (charts, graphs, etc.).
-Documentation:
-Document the entire process, including methodologies, findings, and recommendations.
-Presentation:
-Prepare a presentation summarizing the project objectives, methodologies, key findings, and actionable insights.
+We evaluated model performance using R², MAE, and RMSE, and fine-tuned the Random Forest model with GridSearchCV to optimize hyperparameters.
 
-Step 9: **Portfolio Development**</br>
-Compile Your Work:
-Create a GitHub repository or a portfolio website to showcase your project.
-Include Code and Results:
-Share your code, visualizations, and a well-written report explaining your findings and methodologies.
+Step 5: **Interpretation and Insights**</br>
 
-Step 10: **Feedback and Iteration**</br>
-Seek Feedback:
-Share your project with peers or mentors for feedback.
-Iterate:
-Use feedback to improve the project, whether through additional analysis, refining models, or enhancing visualizations.
+- The most infleuntial features that significantly affect customer purchasing behavior are annual_income, loyalty_score and purchase_to_income_ratio.
 
-## **Team Responsibilities Breakdown :**</br>
+- Customer Segments with :
+  
+    - High Income, Low loyalty score : Offer premium rewards and exclusive services to build loyalty that can help to increase retention.
 
-**Data Cleaning** -Sonu Abraham </br>
-**Exploratory Data Analysis(EDA)** - Henry Giorgi </br>
-**Feature Engineering** - Anshu Dwivedi</br>
-**Model Development** - Maral Barkhordari</br>
-**Hyper Parameter Tuning** - Sonu Abraham </br>
-**Result Interpretation**- Whole team</br>
+    - Low Income, High Loyalty: Provide small, frequent rewards and discounts to retain engagement.
+
+    - Medium Income, Moderate Loyalty: These are average earners with moderate engagement. Use value-driven promotions like bundles and seasonal offers to boost frequency.
+
+- Key Visual Insights :
+  
+    - Income Vs Loyalty(Box Plot): High-income customers often have untapped engagement potential.
+
+       ![image](https://github.com/user-attachments/assets/96f0cef3-50a9-4141-aad5-997bd1972b47)
+
+    - Loyalty Score Vs Purchasing Frequency : Loyalty increases align with higher purchasing frequency, highlighting opportunities for tiered programs.
+
+       ![image](https://github.com/user-attachments/assets/40e44bef-7461-4de5-af0a-0842616eccec)
+
+    - Segmented Bar Plot: Loyalty and income directly influence purchasing frequency, suggesting tailored strategies for each combination.
+
+    - Violin Plot (Loyalty Score): Loyalty score distributions vary with purchasing frequency, offering clues about engagement levels across different groups.
+      
+       ![image](https://github.com/user-attachments/assets/f92d50c0-ff07-4e41-a5cc-791c84c4b041)
+
+    - 3D Scatter Plot : Visualizes interactions between income, loyalty, and purchasing frequency, revealing distinct customer clusters for strategic targeting.
+
+       ![image](https://github.com/user-attachments/assets/6d674a8b-5f52-4163-986c-1280e1d92d66)
+
+
 
